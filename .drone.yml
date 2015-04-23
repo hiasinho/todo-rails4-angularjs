@@ -1,6 +1,6 @@
 image: ruby2.0.0
 services:
-    - newsdev/postgres:9.3
+    - postgres:9.4
 env:
     - RAILS_ENV=test
 script:
